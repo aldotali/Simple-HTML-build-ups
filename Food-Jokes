@@ -1,0 +1,46 @@
+<!--This is an HTML webpage that shows some food jokes. It is basic and it was created by Aldo Tali Student in Bilkent University Ankara Turkey.
+  Create your styles to be used .Create a placeholder container for the page constente. Give it a light gray theme with jumbotron. Add the headers to that row.
+-->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Carter+One" />
+
+<div class = "container">
+  <div class = "jumbotron">
+    <div class = "row">
+     <div class = "col-xs-12"> 
+<h1 style = "text-align:center;"> Food Jokes </h1> 
+  <h2 style = "text-align:center;">
+    <i>This html was constructed for fun.</i></h2>	
+      <div class = "thumbnail" > 
+	<img src="http://cdn-img.health.com/sites/default/files/styles/2000x2000/public/styles/main/public/sb10066792a-001.jpg?itok=MadjifYD" alt="aldoTester" style="width:750px;height:750px;">
+         <h2>Here is a list of some of the jokes that look cheesy to me:<h2>	
+        <h5 style = "font-family:verdana; color: blue;" >	
+          <ol>
+	<li>What if soy milk is just regular milk introducing itself in Spanish?</li>
+	<li style = "color:red">Q: What do you call cheese that isn’t yours?<br>
+	  A: Nacho cheese!</li>
+	<li>Q: What did the egg say to the boiling water?<br>
+	  A: It will take me a while to get hard, I just got laid by some chick</li>
+	<li style = "color:red">Mushroom walks in a bar, bartender says “Hey you can’t drink here.”<br>
+	 Mushroom says “Why not, I’m a Fun-gi!</li>
+	<li>Q: What do you call a fake noodle?<br> 
+	  A: An Impasta.</li>
+	<li  style = "color:red">Q: Why do Mexicans eat beans for dinner?<br> 
+	  A: So they can take bubble baths.</li>
+	<li>Q: Why did the can crusher quit his job?<br> 
+	  A: Because it was soda pressing.</li>
+	<li  style = "color:red">Q. How much room is needed for fungi to grow?<br>
+	  A. As mushroom as possible</li>
+	<li>Q: Why do hamburgers go to the gym<br> 
+	  A: To get better buns!</li>
+	<li  style = "color:red">Q: Why do the French eat snails?<br>
+	  A: They don't like fast food.</li>
+         </ol>	
+           </h5>
+	<h2><b><i>It is always fun to read about food, as it is fun eating food. Here is a recomended link for you guys!  </h2>
+	<p>This will redirect you to <a href= "http://www.jokes4us.com/miscellaneousjokes/foodjokes/eggjokes.html" target="_blank" > jokes4us</a> </p>	
+         </div>
+      </div>	
+    </div>
+  </div>
+<footer style = "text-align:center"> This piece of code was written and coded by Aldo Tali.</footer>
+</div>
