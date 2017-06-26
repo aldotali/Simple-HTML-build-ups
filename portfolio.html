@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<style>
+		body {margin:0;}
+	
+		.navigationBar {
+			position: fixed;
+			overflow: hidden;
+  			background-color: #A20679;
+			width : 100%;
+		}
+		
+		.navigationBar a {
+			float: right;
+  			display: block;
+  			color: #f2f2f2;
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+  			font-size: 17px;
+		}
+		
+		.navigationBar a:hover {
+			background-color: #ddd;
+  			color: black;
+		}
+		
+		.navigationBar  a.active {
+			background-color: #9F999E;
+    			color: white;
+		}
+		
+		.about{
+			background-color:  #9F999E;
+		}
+		h1{
+			text-align: center;
+			color:  white;
+			font-size: 35px;
+		}
+		h2{
+			text-align: center;
+			color:  white;
+			font-size: 25px;
+		}
+		.img-circle {
+    			border-radius: 50%;
+		}
+		table {
+   			width: 85%;
+    			margin-left: auto;
+    			margin-right: auto;
+		}
+</style>
+<script>
+	 $("#findMe").on("click",function(){
+  	$("#about").removeClass("active");
+  	$(this).addClass("active");
+	
+   	
+});
+
+</script>
+</head>
+      <body>	
+	<div class= "navigationBar">
+		<a href="#findMe">Find Me</a>
+		<a href="#portfolio">Portfolio</a>
+ 	 	<a class="active" href="#about">About</a>
+		<a  style = "float: left">Have Fun!</a>
+	</div>
+<div class = "about">
+<table >
+<tr><td  align="right">	
+<div class = "about ">
+	<table>
+	<tr id = "about"><td>
+	
+		<h1><br><br><br>This section is dedicated to information about myself.</h1>
+		<h2><dl>
+			<dt> I am a 2nd year student in <a style = "color: #A20679" href = "http://w3.bilkent.edu.tr/bilkent/  " a target="_blank">Bilkent University</a> Ankara</dt>
+			<dt> My department is Computer Engineering </dt>
+			<dt> So far I have been working on Java, C++, FPGA (SystemVerilog) , Node.js etc </dt>
+			<dt> All these have been focused on the Object Oriented Design </dt>
+		</dt></h2>
+	</td>
+	<td >	
+		<img class = "img-circle" src= "image.jpg">	
+	</td>
+	</tr>
+	<tr id = "portfolio" > <td>
+		<h1>Portfolio <br> <b>  =======</>========= </h1>	
+		
+	</td></tr>
+	<tr>
+		<td align= "center">	
+		<img src= "image.jpg">	
+		<img src= "image.jpg">		
+		<img src= "image.jpg">
+		<img src= "image.jpg">	
+		</td>
+		
+	</tr>
+	<tr>
+		<td align= "center">	
+		<img src= "image.jpg">	
+		<img src= "image.jpg">		
+		<img src= "image.jpg">
+		<img src= "image.jpg">	
+		</td>
+		
+	</tr>
+	<tr id = "findMe">
+		
+		<td><h2>Find me on:<br>=====================================<br><dl><dt><a href= "https://www.facebook.com/aldobos" a target="_blank"> Facebook </a></dt>
+		<dt><a href= "https://www.instagram.com/aldotali/?hl=en" a target="_blank" >Instagram</a></dt>
+		<dt><a href = "https://github.com/aldotali" a target="_blank">GitHub</a></dt></dl></h2></td>
+		
+	</tr>
+	</table>
+</div>
+</td></tr></table></div>
+     </body>
+
+</html>
+
+	
