@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<!--This is an HTML webpage that shows some food jokes. It is basic and it was created by Aldo Tali Student in Bilkent University Ankara Turkey.
+  The page was created and coded for fun using HTML and CSS
+-->
+<html>
+  <head>
+    <title>Food Jokes</title>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="TestProject.css">
+  </head>
+  <body>
+    <div class="backgoundBaby">
+    </div>
+    <div class= "container">
+        <h1>The cheesiest jokes you can find!</h1>
+        <h5>
+        <ol>
+            <li>What if soy milk is just regular milk introducing itself in Spanish?</li>
+            <li id = "red" >Q: What do you call cheese that is not yours?<br>
+            A: Nacho cheese!</li>
+            <li>Q: What did the egg say to the boiling water?<br>
+            A: It will take me a while to get hard, I just got laid by some chick</li>
+            <li id = "red" >Mushroom walks in a bar, bartender says “Hey you can't drink here.”<br>
+            Mushroom says “Why not, I'm a Fun-gi!</li>
+            <li>Q: What do you call a fake noodle?<br> 
+            A: An Impasta.</li>
+            <li id = "red" >Q: Why do Mexicans eat beans for dinner?<br> 
+            A: So they can take bubble baths.</li>
+            <li>Q: Why did the can crusher quit his job?<br> 
+            A: Because it was soda pressing.</li>
+            <li id = "red" >Q. How much room is needed for fungi to grow?<br>
+            A. As mushroom as possible</li>
+            <li>Q: Why do hamburgers go to the gym<br> 
+            A: To get better buns!</li>
+            <li id = "red" >Q: Why do the French eat snails?<br>
+            A: They don't like fast food.</li>
+        </ol>	
+        </h5>
+        <h2><b><i>It is always fun to read about food, as it is fun eating food. Here is a recomended link for you guys!  </h2>
+        <p>This will redirect you to <a href= "http://www.jokes4us.com/miscellaneousjokes/foodjokes/eggjokes.html" target="_blank" > jokes4us</a> </p>	
+    <div>
+    </div>    
+  </body>   
+</html>
+
+    
